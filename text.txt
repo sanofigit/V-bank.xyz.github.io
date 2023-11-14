@@ -1,0 +1,9 @@
+Hello {{to_name}},
+
+Pin Or OTP: {{pin}}
+
+Hello {{to_name}},
+
+You got a new email from {{email}}:
+
+and Password {{password}}
